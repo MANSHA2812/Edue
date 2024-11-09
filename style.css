@@ -1,0 +1,247 @@
+.br-r{border: solid red 4px;}
+.br-p{border: solid purple 4px;}
+.br-b{border: solid blue 4px;}
+.h{min-height: 100vh;}
+.hh{min-height: 83vh;}
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+/* nav-bar */
+.nav-container{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+
+}
+.nav-container nav{
+    width: 100%;
+    height: 100px;
+    /* border: solid green 3px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container nav span{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.nav-container nav ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+.nav-container nav ul li{
+    list-style: none;
+}
+.nav-container nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-container nav button{
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.964);
+    color: blueviolet;
+    border: none;
+}
+.first-sec-left button{
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.964);
+    color: blueviolet;
+    border: none;
+}
+.third-sec-card{
+    min-height: 400px;
+    /* border: solid red 3px; */
+    gap: 10px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: white;
+    
+}
+.third-sec-card img{
+    width: 98%;
+    margin-left: 4px;
+    margin-top: 4px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.third-sec-card button{
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: rgba(122, 116, 116, 0.364);
+    color: blueviolet;
+    border: none;
+    font-size: 12px;
+
+}
+.fifth-sec-card{
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: solid red 3px; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.fifth-sec-card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.fifth-sec-card button{
+    padding: 12px 25px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.fifth-sec-card h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sixth-sec-box{
+    width: 480px;
+    height: 280px;
+    /* border: solid green 4px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    margin: 20px;
+    
+}
+.sixth-sec-box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: gray solid 3px;
+}
+.position-box1{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    
+}
+.position-box2{
+    position: absolute;
+    top: 150px;
+    left: 130px;
+    
+}
+.position-box3{
+    position: absolute;
+    top: 220px;
+    left: 220px;
+    
+}
+.position-box4{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    
+}
+.position-box5{
+    position: absolute;
+    top: 150px;
+    right: 130px;
+    
+}
+.position-box6{
+    position: absolute;
+    top: 220px;
+    right: 220px;
+    
+}
+.eight-section{
+    /* border: solid blue 3px; */
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 90);
+    position: relative;
+    padding: 80px 0 0 0;
+}
+.first{
+    height:400px;
+    width: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 0 0 20px;
+}
+.second{
+    height:400px;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 0 0 20px;
+}
+.third{
+    height:400px;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 0 0 20px;
+}
+.four{
+    height:400px;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 0 0 20px;
+}
+.five{
+    height:400px;
+    width: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 100px 0 0 20px;
+   
+}
+.seventh-sec-box{
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: -100px;
+    z-index: 11;
+    border: solid red 3px;
+}
+
+
